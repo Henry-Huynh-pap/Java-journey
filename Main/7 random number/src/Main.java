@@ -9,6 +9,17 @@ public class Main{
 
         num1 = random.nextInt(1 , 99);
 
-        System.out.print(num1);
+        boolean isStudent;
+
+        isStudent = random.nextBoolean();
+
+        System.out.println(num1);
+
+        if(isStudent){
+            System.out.println("I'm a student");
+        }
+        else{
+            System.out.println("I'm not a student");
+        }
     }
 }
