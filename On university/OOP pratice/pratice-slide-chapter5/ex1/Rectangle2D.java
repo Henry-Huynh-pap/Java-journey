@@ -1,8 +1,8 @@
 public class Rectangle2D {
-    private Point2D first;
-    private Point2D second;
+    private Point2D2 first;
+    private Point2D2 second;
 
-    public Rectangle2D(Point2D first, Point2D second){
+    public Rectangle2D(Point2D2 first, Point2D2 second){
         this.first = first;
         this.second = second;
     }
